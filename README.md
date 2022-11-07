@@ -1,6 +1,6 @@
 # Exorde-Guide, Participation Module CLI v1.3.1 (Docker Ubuntu) (RUS)
 
-### Для начала нужно установить Docker версии не старее `Docker version 20.10.20`
+### Устанавливаем Docker. Нужна версия не старее `Docker version 20.10.20`
 
 Перед началом работы переходим в папку `root`:
 
