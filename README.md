@@ -1,6 +1,6 @@
-# Exorde-Guide Exorde Participation Module CLI v1.3.1 (Docker) (RUS)
+# Exorde-Guide, Participation Module CLI v1.3.1 (Docker) (RUS)
 
-Для начала нужно установить Docker версии не старее `Docker version 20.10.20`
+### Для начала нужно установить Docker версии не старее `Docker version 20.10.20`
 
 Перед началом работы переходим в папку root:
 
@@ -139,7 +139,4 @@ docker restart имя/id модуля
 docker rm имя/id модуля
 ```
 
-
-
-
-
+---
