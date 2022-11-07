@@ -2,13 +2,13 @@
 
 ### Для начала нужно установить Docker версии не старее `Docker version 20.10.20`
 
-Перед началом работы переходим в папку root:
+Перед началом работы переходим в папку `root`:
 
 ```
 cd /root
 ```
 
-1. Обновляем индексы пакетов apt с помощью update:
+1. Обновляем индексы пакетов `apt` с помощью `update`:
 
 ```
 sudo apt update
@@ -37,7 +37,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 ```
 
-6. Установим докер. Параметры “-y” в автоматическом режиме ответит на все вопросы установщика “Yes”:
+6. Установим докер. Параметры `-y` в автоматическом режиме ответит на все вопросы установщика `Yes`:
 
 ```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
@@ -53,19 +53,25 @@ sudo systemctl status docker
 
 ## Приступаем к установке и запуску модуля.
 
-1. Перед началом работы переходим в папку root:
+1. Перед началом работы переходим в папку `root`:
 
 ```
 cd /root
 ```
 
-2. Создаём папку где будет установлем модуль ExordeModuleCLI:
+2. Создаём папку где будет установлем модуль `ExordeModuleCLI`:
 
 ```
 mkdir -v ExordeModuleCLI
 ```
 
-3. Создаём образ Docker для модуля `exorde-cli`
+Переходим в папку `ExordeModuleCLI`:
+
+```
+cd /ExordeModuleCLI
+```
+
+4. Создаём образ Docker для модуля `exorde-cli`
 
 ```
 docker build -t exorde-cli . 
