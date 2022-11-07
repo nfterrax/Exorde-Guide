@@ -1,4 +1,4 @@
-# Exorde-Guide, Participation Module CLI v1.3.1 (Docker) (RUS)
+# Exorde-Guide, Participation Module CLI v1.3.1 (Docker Ubuntu) (RUS)
 
 ### Для начала нужно установить Docker версии не старее `Docker version 20.10.20`
 
@@ -48,6 +48,8 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 ```
 sudo systemctl status docker
 ```
+
+
 
 ## Приступаем к установке и запуску модуля.
 
